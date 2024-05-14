@@ -1,6 +1,7 @@
 import logging
 
 import azure.functions as func
+import psycopg2
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
